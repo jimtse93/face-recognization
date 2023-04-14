@@ -1,0 +1,14 @@
+server:
+  port: 10006
+spring:
+  servlet:
+    multipart:
+      # 上传文件总的最大值
+      max-request-size: 20MB
+      # 单个文件的最大值
+      max-file-size: 20MB
+
+web:
+  static-urls:
+    - /favicon.ico
+    - /**/*
